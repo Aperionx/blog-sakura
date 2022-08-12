@@ -1,1 +1,0 @@
-/usr/share/php/php-simplepie/autoloader.php
