@@ -31,9 +31,9 @@ if (akina_option('general_disqus_plugin_support')) {
 		</div>
 		<div class="footer-device">
 			<p style="font-family: 'Ubuntu', sans-serif;">
-				<span style="color: #666666;">
+				<span>
 					<img src="http://minggrid.site/wp-content/themes/sakura/images/beian.png"/>
-					<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43042402000034">湘公网安备43042402000034号</a> | <a href="https://beian.miit.gov.cn">湘ICP备2022014751号-1</a>
+					<a style="color: #666666;" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=43042402000034">湘公网安备43042402000034号</a> | <a style="color: #666666;" href="https://beian.miit.gov.cn">湘ICP备2022014751号-1</a>
 				</span>
 			</p>
 		</div>
