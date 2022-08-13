@@ -1479,7 +1479,9 @@ i.iconfont.hotpost {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0);
     box-shadow: 0 1px 20px -8px rgba(0, 0, 0, .5);
-    opacity: 0
+    opacity: 0;
+    -webkit-transition: box-shadow .3s ease;
+    transition: box-shadow .3s ease
 }
 
 @media (max-width:860px) {
@@ -1506,6 +1508,18 @@ i.iconfont.hotpost {
     -webkit-line-clamp: 2;
     overflow: hidden;
     word-wrap: break-word
+}
+
+.post-list-thumb:hover {
+	/*         box-shadow:0px 5px 20px 5px rgba(0,0,0,0.5); */
+	-webkit-box-shadow:0 5px 10px 5px rgba(110,110,110,.5);
+	box-shadow:0 5px 10px 5px rgba(110,110,110,.5)
+}
+
+
+.post-list-thumb:hover img{
+	-webkit-transform:scale(1.2) rotate(5deg);
+	transform:scale(1.2) rotate(5deg)
 }
 
 .post-date,
@@ -1542,7 +1556,7 @@ i.iconfont.hotpost {
 }
 
 .post-thumb a img:hover {
-    transform: scale(1.1)
+    transform:scale(1.2) rotate(5deg)
 }
 
 .post-content-wrap {
@@ -1552,7 +1566,7 @@ i.iconfont.hotpost {
     padding-right: 30px;
     padding-left: 0;
     width: 40%;
-    margin: 20px 10px 0 10px
+    margin: 20px 10px 0 
 }
 
 .float-content {
@@ -1611,7 +1625,7 @@ i.iconfont.hotpost {
         box-shadow: none;
         border-top: 0
     }
-    .post-list-thumb::before {
+    .post-list-thumb:before {
         content: '';
         width: 1px;
         height: 100px;

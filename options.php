@@ -473,9 +473,9 @@ function optionsframework_options()
 
     $options[] = array(
         'name' => __('Top-feature title', 'sakura'), /*聚焦标题*/
-        'desc' => __('Default is Discovery, you can also change it to other, of course you can\'t use it as an advertisement!Not allowed!!', 'sakura'), /*默认为聚焦，你也可以修改为其他，当然不能当广告用！不允许！！*/
+        'desc' => __('Default is Collection, you can also change it to other, of course you can\'t use it as an advertisement!Not allowed!!', 'sakura'), /*默认为聚焦，你也可以修改为其他，当然不能当广告用！不允许！！*/
         'id' => 'feature_title',
-        'std' => 'Discovery',
+        'std' => 'Collection',
         'class' => 'mini',
         'type' => 'text');
 
