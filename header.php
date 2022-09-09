@@ -86,6 +86,8 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
 		$filter = akina_option('focus_img_filter');
 		?>
 		<div class="headertop <?php echo $filter; ?>">
+			<div id="banner_wave_1"></div>
+			<div id="banner_wave_2"></div>
 			<?php get_template_part('layouts/imgbox'); ?>
 		</div>	
 		<?php } ?>

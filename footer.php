@@ -27,7 +27,8 @@ if (akina_option('general_disqus_plugin_support')) {
 				<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/wordpress-rotating-ball-o.svg">
 				<img src="https://cdn.jsdelivr.net/gh/moezx/cdn@3.1.9/img/Sakura/images/disqus-preloader.svg">
 			</div>
-			<p style="color: #666666;"><?php echo akina_option('footer_info', ''); ?></p>
+			<p style="color: #666666;">Copyright © by Ming All Rights Reserved.</p>
+<!-- 			<p style="color: #666666;"><?php echo akina_option('footer_info', ''); ?></p> -->
 		</div>
 		<div class="footer-device">
 			<p style="font-family: 'Ubuntu', sans-serif;">

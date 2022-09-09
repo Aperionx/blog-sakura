@@ -3,6 +3,7 @@
 //https://api.mashiro.top/cover
 
 ?>
+
 <figure id="centerbg" class="centerbg">
 <?php if ( !akina_option('focus_infos') ){ ?>
 	<div class="focusinfo">
