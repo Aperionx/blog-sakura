@@ -113,13 +113,26 @@ window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}
 					<div class="searchbox"><i class="iconfont js-toggle-search iconsearch icon-search"></i></div>
 					<?php } ?>
 					<div class="lower"><?php if(!akina_option('shownav')){ ?>
-						<div id="show-nav" class="showNav">
+<!-- 						<div id="show-nav" class="showNav">
 							<div class="line line1"></div>
 							<div class="line line2"></div>
 							<div class="line line3"></div>
-						</div><?php } ?>
+						</div><?php } ?> -->
+						<ul id="menu-menu-1" class="menu">
+							<li><a href="http://minggrid.site/">首页</a></li>
+							<li><a href="https://github.com/GardZhou/blog-sakura">Github</a></li>
+							<li><a href="http://minggrid.site/">关于</a></li>
+							<li></li>
+<!-- 							<li><a href="http://minggrid.site/">时光轴</a></li>
+							<li><a href="http://minggrid.site/">友链</a></li>
+							<li><a href="http://minggrid.site/">关于</a></li>
+							<li><a href="http://minggrid.site/">留言板</a></li>
+							<li><a href="http://minggrid.site/">登录</a></li> -->
+						</ul>
 						<nav><?php wp_nav_menu( array( 'depth' => 2, 'theme_location' => 'primary', 'container' => false ) ); ?></nav><!-- #site-navigation -->
+						
 					</div>	
+
 				</div>
 			</header><!-- #masthead -->
 			<?php if (get_post_meta(get_the_ID(), 'cover_type', true) == 'hls') {
